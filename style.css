@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.left-section {
+  flex: 1;
+  background-color: #1ab8f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-section img {
+  width: 70%;
+  max-width: 420px;
+  object-fit: contain;
+}
+
+.right-section {
+  flex: 1;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 420px;
+}
+
+.form-box h1 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #1a1a2e;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+
+.input-group label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #444444;
+  margin-bottom: 7px;
+}
+
+.input-group input {
+  padding: 13px 16px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333333;
+  outline: none;
+  transition: border-color 0.25s ease;
+}
+
+.input-group input::placeholder {
+  color: #bbbbbb;
+}
+
+.input-group input:focus {
+  border-color: #1ab8f3;
+}
+
+/* ===== FORGOT PASSWORD ROW ===== */
+.forgot-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -10px;
+  margin-bottom: 28px;
+}
+
+.forgot-row a {
+  font-size: 12px;
+  color: #aaaaaa;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.forgot-row a:hover {
+  color: #1ab8f3;
+}
+
+.login-btn {
+  background-color: #1ab8f3;
+  color: #ffffff;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  letter-spacing: 0.5px;
+  transition: background-color 0.25s ease, transform 0.1s ease;
+}
+
+.login-btn:hover {
+  background-color: #0da8e0;
+}
+
+.register-row {
+  text-align: center;
+  margin-top: 22px;
+  font-size: 13px;
+  color: #999999;
+}
+
+.register-row a {
+  color: #1ab8f3;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.register-row a:hover {
+  color: #0da8e0;
+  text-decoration: underline;
+}
